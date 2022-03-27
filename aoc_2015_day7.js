@@ -15,6 +15,8 @@ function parseCommands(text) {
 
 function getValue(variable) {
     if (Number.isInteger(+lookup[variable])) {
+        // part 2
+        //if (variable === 'b') return 46065; 
         return +lookup[variable];
     }
     
